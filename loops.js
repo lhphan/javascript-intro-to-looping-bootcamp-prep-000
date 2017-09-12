@@ -1,3 +1,6 @@
+function maybeTrue() {
+  return Math.random() >= 0.5
+}
 function forLoop(array){
   for(let i = 0; i < 25; i++){
     if(i === 1){
@@ -17,5 +20,5 @@ function whileLoop(n){
 }
 
 function doWhileLoop(array){
-  
+
 }
